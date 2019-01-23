@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #727272;
+  background-color: #6e6e6e;
 }
 
 .App {
@@ -12,9 +12,9 @@ body {
   width: 70%;
 }
 
-.header{
+.header {
   padding-top: 2em;
-
+  padding-bottom: 2em;
 }
 
 .header-line{
@@ -22,6 +22,34 @@ body {
   height: 3em;
 }
 
-.user{
+.header-line:before{
 
+  content: "Read this -";
+  background-color: yellow;
+  color: red;
+  font-weight: bold;
 }
+
+.header-text{
+  padding: 4px;
+  border-radius: 8px;
+  color: #ece8ee;
+  font-size: 1.5em;
+  text-shadow: 1px 1px 2px gray;
+  background-color: #01295b;
+  text-transform: uppercase;
+}
+
+.header-text-container{
+  margin-left: 150px;
+  width: 180px;
+  position: relative;
+  top: -7px;
+  padding: 12px;
+  background-color: #fafbf6;
+  border-radius: 20px;
+}
+
+/*.user{*/
+
+/*}*/

@@ -19,7 +19,7 @@ class User extends Component {
 
     render() {
         return (
-            <div className="user">
+            <div className="col">
                 <h1>{this.state.firstName+" "+this.state.lastName}</h1>
                 <Professions data={this.state.professions} />
             </div>

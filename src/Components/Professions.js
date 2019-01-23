@@ -18,7 +18,7 @@ class Professions extends Component {
 
                 {this.state.data.map(i => {
 
-                    return <li>{i}</li>
+                    return <li key={i}>{i}</li>
                 })}
 
             </ul>
